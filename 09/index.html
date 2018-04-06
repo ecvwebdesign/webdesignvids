@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>Modern Layouts: Getting Out of Our Ruts by Jen Simmons—An Event Apart video</title>
+          <style>
+            body {
+              background: #ddd;
+            }
+
+            video {
+              max-width: 100%;
+              height: auto;
+            }
+
+            iframe,
+            embed,
+            object {
+              max-width: 100%;
+            }
+
+            .container {
+              width: 70%;
+              padding: 5%;
+              margin:0px auto;
+              background:#fff;
+              box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+            }
+
+            .vendor {
+              padding: 2%;
+              background: #d1eed1;
+              margin-bottom: 2em;
+            }
+
+            .unsupported {
+              background: #fddfde;
+            }
+          </style>
+      </head>
+      <body>
+        <h1>Modern Layouts: Getting Out of Our Ruts by Jen Simmons—An Event Apart video</h1>
+        <h3>In the early years of the web, there was a lot of variation and experimentation with where to put content on a web page. Then, it seems, we all settled into a handful of patterns and stayed there for over a decade. It wasn’t until the arrival of responsive design that new ideas for page layout started appearing. Now with new CSS properties for layout landing in browsers, we may be about to see a bigger renaissance in layout design patterns.
+
+    In this dynamic presentation captured live at An Event Apart Austin, Jen Simmons asks how we can better use the space inside the glass rectangle. What layout innovations could help users better find and focus on what they want? Join Jen for a walk through where we’ve been, where we might be going, and how we can better design for the true medium at hand. This talk features practical examples of what’s newly possible, along with access to a code repo for you to play with later.
+
+    Dubbed “the Terry Gross of the tech industry,” Jen Simmons is the host and executive producer of The Web Ahead. Her in-depth interviews explain emerging technology and predict the future of the web — and won the 2015 Net Award for Podcast of the Year.
+
+    Jen is a Designer and Developer Advocate at Mozilla, where she advocates for web standards and researches the coming revolution in graphic design on the web. She’s spoken at events including An Event Apart, SXSW, Fluent, Generate, Future of Web Design, and Respond. Her talk, “Modern Layouts: Getting Out of Our Ruts,” was awarded Best Conference Presentation at CSS Dev Conf 2014.
+
+    Jen launched her first client website in 1998 and spent years making sites for small mom & pop shops, arts organization, and creative individuals. Her more well-known clients include CERN, the W3C, Google, Drupal, Temple University, and the Annenberg Foundation.
+
+    Besides designing for the web, Jen has years of experience designing for live performance and for print. Her projection and lighting design work has shown at theaters including the BAM Next Wave Festival, the National Theater of Belgrade, The Off Center, and Jump-Start Performance Co. Her short films toured film festivals around the globe, including RESFEST, Media That Matters, and on MTV Television. She taught digital media to high school kids in San Antonio and film production to college students in Philadelphia. Jen earned a MFA in Film and Media Arts from Temple University. She lives in New York City.
+
+    Enjoy all the free videos in An Event Apart’s library: aneventapart.com/news/videos. And, remember, as an AEA Digest subscriber, you enjoy exclusive access to our latest videos weeks before anyone else!</h3>
+        <div class="container">
+          <div class="vendor">
+              <iframe width="425" height="349" src="https://www.youtube.com/embed/ZNpn7FBp_9U" frameborder="0" allowfullscreen></iframe>
+            </div>
     <meta charset="utf-8">
-    <title>Modern Layouts: Getting Out of Our Ruts by Jen Simmons—An Event Apart video</title>
-  </head>
-  <body>
-    <h1>Modern Layouts: Getting Out of Our Ruts by Jen Simmons—An Event Apart video</h1>
-    <a href="https://vimeo.com/147950924">Modern Layouts<a/>
-      <h3>In the early years of the web, there was a lot of variation and experimentation with where to put content on a web page. Then, it seems, we all settled into a handful of patterns and stayed there for over a decade. It wasn’t until the arrival of responsive design that new ideas for page layout started appearing. Now with new CSS properties for layout landing in browsers, we may be about to see a bigger renaissance in layout design patterns.
+  </div>
 
-In this dynamic presentation captured live at An Event Apart Austin, Jen Simmons asks how we can better use the space inside the glass rectangle. What layout innovations could help users better find and focus on what they want? Join Jen for a walk through where we’ve been, where we might be going, and how we can better design for the true medium at hand. This talk features practical examples of what’s newly possible, along with access to a code repo for you to play with later.
-
-Dubbed “the Terry Gross of the tech industry,” Jen Simmons is the host and executive producer of The Web Ahead. Her in-depth interviews explain emerging technology and predict the future of the web — and won the 2015 Net Award for Podcast of the Year.
-
-Jen is a Designer and Developer Advocate at Mozilla, where she advocates for web standards and researches the coming revolution in graphic design on the web. She’s spoken at events including An Event Apart, SXSW, Fluent, Generate, Future of Web Design, and Respond. Her talk, “Modern Layouts: Getting Out of Our Ruts,” was awarded Best Conference Presentation at CSS Dev Conf 2014.
-
-Jen launched her first client website in 1998 and spent years making sites for small mom & pop shops, arts organization, and creative individuals. Her more well-known clients include CERN, the W3C, Google, Drupal, Temple University, and the Annenberg Foundation.
-
-Besides designing for the web, Jen has years of experience designing for live performance and for print. Her projection and lighting design work has shown at theaters including the BAM Next Wave Festival, the National Theater of Belgrade, The Off Center, and Jump-Start Performance Co. Her short films toured film festivals around the globe, including RESFEST, Media That Matters, and on MTV Television. She taught digital media to high school kids in San Antonio and film production to college students in Philadelphia. Jen earned a MFA in Film and Media Arts from Temple University. She lives in New York City.
-
-Enjoy all the free videos in An Event Apart’s library: aneventapart.com/news/videos. And, remember, as an AEA Digest subscriber, you enjoy exclusive access to our latest videos weeks before anyone else!</h2>
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery.fitvids.js"></script>
+  <script>
+    // Basic FitVids Test
+    $(".container").fitVids();
+    // Custom selector and No-Double-Wrapping Prevention Test
+    $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+  </script>
   </body>
 </html>
