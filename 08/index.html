@@ -3,15 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>The Map & The Territory by Ethan Marcotte – An Event Apart Video</title>
+    <style>
+
+      video {
+        max-width: 100%;
+        height: auto;
+      }
+
+      iframe,
+      embed,
+      object {
+        max-width: 100%;
+      }
+
+      .container {
+        width: 50%;
+        padding: 2em;
+        margin:0px auto;
+
+      }
+      .vendor {
+
+      }
+
+
+    </style>
   </head>
   <body>
 <h1>The Map & The Territory by Ethan Marcotte – An Event Apart Video</h1>
 <h2>6 April 2018</h2>
-<a href="https://vimeo.com/120164988">An Event Apart Video</a>
 <h3>In this 60-minute video, caught live at An Event Apart Orlando 2014, Ethan Marcotte, author—and father—of Responsive Web Design, explores how the needs and habits of an emerging audience are profoundly reshaping how we design for the web.
 
 In this session, Ethan revisits what we’ve learned about responsive design, to ensure that our content, not just our design, is readily accessible to all people, wherever and whenever they are—and examines how the audience itself is reshaping how we think about our medium. Discover where they will lead us, and the web, next.
 
 You can catch Ethan’s new presentation, “Laziness in the Time of Responsive Design,” at An Event Apart Boston, May 11-13, 2015 (aneventapart.com/event/boston-2015). For the latest on AEA, follow us on Twitter, Google+, or Facebook. And for the latest web design news plus special offers, discounts, and more, subscribe to our mailing list.</h3>
+  <div class="container">
+<div class="vendor">
+<iframe class="fitvidsignore" src="https://player.vimeo.com/video/120164988" width="800/embed/?moog_width=800" height="450" frameborder="0"></iframe>
+
+</div>
+      </div>
   </body>
+
+
+  <script src="path/to/jquery.min.js"></script>
+  <script src="path/to/jquery.fitvids.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Target your .container, .wrapper, .post, etc.
+      $("#thing-with-videos").fitVids();
+    });
+  </script>
+
 </html>
