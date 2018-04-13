@@ -9,7 +9,7 @@
 
           <style>
           body {
-          /* background: #ddd; */
+          background: #ddd;
           }
           video {
             max-width: 100%;
@@ -25,6 +25,7 @@
             padding: 5%;
             margin:0px auto;
             background:#fff;
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
           }
           .vendor {
             padding: 2%;
@@ -33,7 +34,7 @@
           .unsupported {
             background: #fddfde;
           }
-</style>
+          </style>
 
 
 
@@ -41,38 +42,37 @@
 
   </head>
   <body>
-  <h1>SIXTEEN WEBDESIGN VIDEOS</h1>
+
+    <div class="container">
+
+    <h1>SIXTEEN WEBDESIGN VIDEOS</h1>
+    <h1>"One Thing about JavaScript" by CSS-Tricks Screencast</h1>
 
 
-      <h1>"One Thing about JavaScript" by CSS-Tricks Screencast</h1>
+
+      <div class="vendor">
+      <iframe width="425" height="349" src="https://www.youtube.com/embed/QyDOn9iW8LE?rel=0" frameborder="0" allowfullscreen></iframe>
+
+      <a href="https://www.youtube.com/embed/QyDOn9iW8LE?rel=0">Lien de la vidéo</a>
       <h2>Hey designers, if you only know one thing about JavaScript, this is what I would recommend</h2>
       <p>Sometimes, to start a journey into learning something huge and complex, you need to learn something small and simple. JavaScript is huge and complex, but you can baby step into it by learning small and simple things. If you're a web designer,  I think there is one thing in particular that you can learn that is extremely empowering.</p>
 
-<a href="https://www.youtube.com/embed/QyDOn9iW8LE?rel=0">Lien de la vidéo</a>
-    <div class="container">
-      <div class="vendor">
+      </div>
+
+    <a href="../16/index.html"> Voir video suivante </a>
+    </div>
 
 
-    <iframe width="425" height="349" src="https://www.youtube.com/embed/QyDOn9iW8LE?rel=0" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
 
 
-<a href="../16/index.html"> Voir video suivant </a>
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="jquery.fitvids.js"></script>
-<script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery.fitvids.js"></script>
+  <script>
   // Basic FitVids Test
   $(".container").fitVids();
   // Custom selector and No-Double-Wrapping Prevention Test
   $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
-</script>
+  </script>
 
-
-
-
-
-</body>
+  </body>
 </html>
