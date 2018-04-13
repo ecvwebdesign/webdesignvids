@@ -2,10 +2,18 @@ h1{
 
 font-family: 'IBM Plex Mono', monospace;
 color: blue;
+text-align: center;
+
 }
 
 p{
 
 font-family: 'Poppins', sans-serif;
 
+}
+
+h2{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
