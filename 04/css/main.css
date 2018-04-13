@@ -1,0 +1,29 @@
+body {
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe,
+embed,
+object {
+  max-width: 100%;
+}
+
+.container {
+  width: 70%;
+  padding: 5%;
+  margin:0px auto;
+  background:#fff;
+}
+
+.vendor {
+  padding: 2%;
+  margin-bottom: 2em;
+}
+
+.unsupported {
+  background: #fddfde;
+}
