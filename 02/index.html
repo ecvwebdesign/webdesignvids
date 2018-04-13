@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+              body {
+                background: #ffffff;
+              }
+              video {
+                max-width: 100%;
+                height: auto;
+              }
+              iframe,
+              embed,
+              object {
+                max-width: 100%;
+              }
+              .container {
+                width: 70%;
+                padding: 5%;
+                margin:0px auto;
+                background:#fff;
+                box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+              }
+              .vendor {
+                padding: 2%;
+                background: #d1eed1;
+                margin-bottom: 2em;
+              }
+              .unsupported {
+                background: #fddfde;
+              }
+            </style>
+
+
     <meta charset="utf-8">
     <title>understanding webdesign by Jeffrey Zeldman</title>
-    <iframe src="https://player.vimeo.com/video/128619771" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/128619771">Understanding Web Design by Jeffrey Zeldman&mdash;An Event Apart Video</a> from <a href="https://vimeo.com/zeldman">Jeffrey Zeldman</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-<p>When the institutions we’ve appointed to judge our best work don’t understand the nature or value of that work, then our clients,
-  bosses, and coworkers won’t understand it either.
-  And their lack of understanding can put crippling limits on your professional happiness, your long-term career,
-  and the success of your next project.
-In this 60-minute video, captured live at An Event Apart Orlando: Special Edition in Walt Disney World,
-An Event Apart co-founder Jeffrey Zeldman explains how to define the essence of our profession,
-and become the ambassador for web design that our work and your career deserve.
-Dubbed “King of Web Standards” by Business Week, Zeldman co-founded An Event Apart with Eric Meyer;
-has published A List Apart “for people who make websites,” a leading journal of web design thought since 1998;
-and founded and is chairman of Happy Cog, a digital design studio established in 1999, with offices in NYC and Philadelphia.
-He has written two books, notably the foundational web standards text, Designing With Web Standards,
-currently in a 3rd Edition coauthored with Ethan Marcotte.
-It has been translated into 15 languages.</p>
 
-<p>Jeffrey co-founded and publishes A Book Apart (“brief books for people who make websites”),
-responsible for such influential titles as Responsive Web Design by Ethan Marcotte and Mobile First
-by Luke Wroblewski. He’s a faculty member on the MFA, Interaction Design program at School of Visual Arts,
-New York, and the host of weekly internet radio program The Big Web Show (“Everything Web That Matters”),
-twice named Podcast of the Year by net magazine. In 2012, Jeffrey was the first designer inducted in the SXSW Interactive Hall of Fame.</p>
   </head>
+
+
   <body>
+
+
+
+    <iframe width="620px" height="491px" src="https://player.vimeo.com/video/128619771" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+
+          </div>
+
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+          <script src="jquery.fitvids.js"></script>
+          <script>
+            // Basic FitVids Test
+            $(".container").fitVids();
+            // Custom selector and No-Double-Wrapping Prevention Test
+            $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+          </script>
+
+          <p>Jeffrey co-founded and publishes A Book Apart (“brief books for people who make websites”),
+          responsible for such influential titles as Responsive Web Design by Ethan Marcotte and Mobile First
+          by Luke Wroblewski. He’s a faculty member on the MFA, Interaction Design program at School of Visual Arts,
+          New York, and the host of weekly internet radio program The Big Web Show (“Everything Web That Matters”),
+          twice named Podcast of the Year by net magazine. In 2012, Jeffrey was the first designer inducted in the SXSW Interactive Hall of Fame.</p>
+
+
+          </body>
+
+<a href="../03/index.html">voir vidéo suivante</a>
+
 
   </body>
 </html>
