@@ -3,9 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Atomic Design by Brad Frost</title>
+    <style>
+  body {
+    background: #ddd;
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  iframe,
+  embed,
+  object {
+    max-width: 100%;
+  }
+  .container {
+    width: 70%;
+    padding: 5%;
+    margin:0px auto;
+    background:#fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  }
+</style>
   </head>
   <body>
+    <div class="container">
+      <h1>Atomic Design by Brad Frost&mdash;An Event Apart video</h1>
     <iframe src="https://player.vimeo.com/video/179245570" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <p><a href="https://vimeo.com/179245570">Atomic Design by Brad Frost&mdash;An Event Apart video</a> from <a href="https://vimeo.com/user31596242">An Event Apart</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+    <p>Over the past few years, we’ve seen the web community create style tiles, element collages, style guides, pattern libraries, and a slew of other tools in order to break interfaces down to their atomic elements. Our interfaces are going more places than ever before, so this shift is essential to help us better understand what our websites consist of in order for us create smart, scalable, maintainable designs.
+
+In this 60-minute video captured live at An Event Apart Austin, Brad Frost introduces atomic design, a methodology for creating robust design systems. Brad covers how to apply atomic design to implement your very own design system in order to set you, your organization, and your clients up for success.
+
+Brad Frost is a web designer, speaker, writer, and consultant located in beautiful Pittsburgh, PA. He’s passionate about creating web experiences that look and function beautifully on a never-ending stream of connected devices, and loves helping organizations do the same. He’s the author of Atomic Design, and has also helped create several tools and resources for web designers, including This Is Responsive, Pattern Lab, Styleguides.io, WTF Mobile Web, and Mobile Web Best Practices.
+
+</p>
+
+    <a href="../14/index.html">Voir vidéo suivante</a>
+</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="jquery.fitvids.js"></script>
+      <script>
+        // Basic FitVids Test
+        $(".container").fitVids();
+        // Custom selector and No-Double-Wrapping Prevention Test
+        $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+      </script>
   </body>
 </html>

@@ -4,11 +4,56 @@
     <meta charset="utf-8">
     <title>SmashingConf San Francisco 2017</title>
   </head>
+  <style media="screen">
+
+  video {
+  max-width: 100%;
+  height: auto;
+  }
+  iframe,
+  embed,
+  object {
+  max-width: 100%;
+  }
+  .container {
+  width: 70%;
+  padding: 5%;
+  margin:0px auto;
+  background:#fff;
+
+  }
+
+  .unsupported {
+  background: #fddfde;
+  }
+
+  </style>
+
   <body>
+
     <h1>SmashingConf San Francisco 2017 by Erika Hall on Beyond Measure</h1>
 
-    <iframe src="https://player.vimeo.com/video/214430320" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/214430320">SmashingConf San Francisco 2017 - Erika Hall on Beyond Measure</a> from <a href="https://vimeo.com/smashingmagazine">Smashing Magazine</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+  <div class="container">
+      <div class="vendor">
+        <iframe width="425" height="349" src="https://player.vimeo.com/video/214430320" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         <script src="jquery.fitvids.js"></script>
+         <script>
+           // Basic FitVids Test
+           $(".container").fitVids();
+           // Custom selector and No-Double-Wrapping Prevention Test
+           $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+         </script>
+
+         <p>Site analytics. The quantified self. Big data.
+           We can track, measure, and store more than ever before.
+           This is naturally exciting to designers and technologists who want to make better informed decisions.
+           But more data doesn’t necessarily create more meaning, and might even make it harder to see what matters.
+           Human experience does not reduce to an engineering problem and what we can’t count still counts in an increasingly quantified world.</p>
+
+<a href="../13/index.html"> Voir la vidéo suivante </a>
   </body>
 </html>

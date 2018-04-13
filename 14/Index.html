@@ -3,14 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>Resilience - Jeremy Keith - btconfDUS 2016</title>
+<style>
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe,
+embed,
+object {
+  max-width: 100%;
+}
+
+.container {
+  width: 70%;
+  padding: 5%;
+  margin:0px auto;
+  background:#fff;
+}
+
+</style>
+
+
   </head>
+
   <body>
 
 <h1>Resilience - Jeremy Keith - btconfDUS 2016</h1>
 <p>Web browsers have become so powerful that developers are now treating them as if they were a runtime environment as predictable as any other. But the truth is that we still need to deal with many unknown factors that torpedo our assumptions. The web is where Postel’s Law meets Murphy’s Law, so we can’t treat web development as if it were just another flavor of software. Instead we must work with the grain of the web. There are tried and tested approaches to building for the web that will result in experiences that are robust, flexible, and resilient.</p>
 
-    <iframe src="https://player.vimeo.com/video/166140718" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/166140718">Resilience - Jeremy Keith - btconfDUS 2016</a> from <a href="https://vimeo.com/beyondtellerrand">beyond tellerrand</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<a href="https://vimeo.com/166140718 ">https://vimeo.com/166140718 </a>
+
+
+
+ <div class="container">
+   <div class="vendor">
+     <iframe width="640" height="360" src="https://player.vimeo.com/video/166140718" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+ </div>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script src="jquery.fitvids.js"></script>
+ <script>
+   // Basic FitVids Test
+   $(".container").fitVids();
+   // Custom selector and No-Double-Wrapping Prevention Test
+   $(".container").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+</script>
+
+
+<a href= "../15/index.html">voir vidéo suivante</a>
 
 
   </body>
