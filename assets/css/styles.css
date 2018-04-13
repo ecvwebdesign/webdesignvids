@@ -1,0 +1,7 @@
+.header {
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: left;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+}
