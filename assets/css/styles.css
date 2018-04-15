@@ -5,3 +5,13 @@
   bottom: 12px;
   left: 12px;
 }
+footer {
+  height:auto;
+  background-color: #adabab;
+  width : auto;
+  text-align: center;
+}
+a {
+text-decoration: none;
+color: white;
+}
