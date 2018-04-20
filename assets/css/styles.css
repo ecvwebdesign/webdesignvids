@@ -2,14 +2,6 @@ body {
   background: #ddd;
 }
 
-h1{
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-p{
-  font-family: 'Crimson Text', serif;
-}
-
 video {
   max-width: 100%;
   height: auto;
@@ -28,6 +20,3 @@ object {
   background:#fff;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-
-font-family: 'Crimson Text', serif;
-font-family: 'Julius Sans One', sans-serif;
